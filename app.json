@@ -1,0 +1,28 @@
+{
+  "name": "cue",
+  "displayName": "cue",
+  "expo": {
+    "name": "cue",
+    "slug": "cue",
+    "version": "1.0.0",
+    "icon": "./src/assets/splashicon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./src/assets/splashscreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "package": "se.app.cue"
+    },
+    "ios": {
+      "bundleIdentifier": "se.app.cue",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBL0KtIGeGtYkp3D2Uolz0ADo8GSfT8X8c"
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
